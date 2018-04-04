@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="icon" href="" type="image/jpg" sizes="16x16">
+
+<head>
+    <title>Crystal Game</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+
+
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <!--
+    <link rel="stylesheet" type="text/css" media="screen" href="980px.css">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="768px.css">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="640px.css">
+    -->
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+
+    <href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    
+ 
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Crystals Collector</h1>
+
+    </header>
+
+
+
+    <div class="container">
+        <p id="Instructions">
+
+
+            <p>You will be given a random number at the start of the game.</p>
+
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total
+                score.
+            </p>
+
+            <p>You win the game by matching your total score to a random number, you lose the game if your total score goes
+                over the random number.</p>
+
+            <p>The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game
+                will change the values of each crystal</p>
+
+        </p>
+        <div id="random-number">
+        <h2>Match this number:</h2>
+        </div>
+
+        <div id="wins-losses">
+            <h2 id="empty"></h2>
+            <h2 id="wins">Wins:</h2>
+            <h2 id="losses">Losses:</h2>
+        </div>
+
+        <div class="crystals">
+            <img id="blue" src="assets/images/blue.png">
+            <img id="green" src="assets/images/green.png">
+            <img id="pink" src="assets/images/pink.png">
+            <img id="purple" src="assets/images/purple.png">
+
+        </div>
+
+        <div id="total-score">
+            <h2>Your total score is:</h2>
+        <div id="score"></div>
+            <h2>_</h2>
+        </div>
+    </div>
+
+    <footer>
+
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+
+
+</html>
