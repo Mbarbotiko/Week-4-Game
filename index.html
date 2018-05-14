@@ -23,9 +23,9 @@
 
     <href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-    
- 
+
+
+
 
 
 </head>
@@ -40,7 +40,8 @@
 
 
     <div class="container">
-        <p id="Instructions">
+        <div id="instructions-container">
+
 
 
             <p>You will be given a random number at the start of the game.</p>
@@ -55,36 +56,33 @@
             <p>The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game
                 will change the values of each crystal</p>
 
-        </p>
+
+        </div>
         <div id="random-number">
-        <h2>Match this number:</h2>
+            <p>Match this number:</p>
         </div>
 
         <div id="wins-losses">
-            <h2 id="empty"></h2>
-            <h2 id="wins">Wins:</h2>
-            <h2 id="losses">Losses:</h2>
+            <p id="empty"></p>
+            <p id="wins">Wins:</p>
+            <p id="losses">Losses:</p>
         </div>
 
         <div class="crystals">
             <img id="blue" src="assets/images/blue.png">
             <img id="green" class="crystals" src="assets/images/green.png">
-            <img id="pink" class="crystals "src="assets/images/pink.png">
+            <img id="pink" class="crystals " src="assets/images/pink.png">
             <img id="purple" class="crystals" src="assets/images/purple.png">
 
         </div>
 
         <div id="total-score">
-            <h2>Your total score is:</h2>
-        <div id="score"></div>
-            <h2>_</h2>
+            <p>Your total score is:</p>
+            <div id="score"></div>
+            <p></p>
         </div>
     </div>
 
-    <footer>
-
-
-    </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 

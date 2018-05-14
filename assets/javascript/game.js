@@ -1,6 +1,10 @@
 
 $(document).ready(function () {
 
+    $("#instructions-container").on('click', function(){
+        $("#instructions-container").hide();
+    });
+
     var losses = 0;
     var wins = 0;
     var crystalValue = [0];
