@@ -13,6 +13,7 @@ body{
 
 img{
    width: 15%;
+   cursor: pointer;
 }
 
 p{
@@ -22,30 +23,39 @@ p{
 }
 
 header{
-    border-bottom:black solid 2px;
-    background-color:rgb(238, 59, 128);
+    color:rgb(238, 59, 128);
     margin:auto 0;
     padding-top:10px;
-    padding-bottom:10px;
+    padding-bottom:10px;  
+    background: linear-gradient(to top, 
+    rgba(255,255,255, 0), 
+    black 95%);
+    font-family: 'Love Ya Like A Sister', cursive;
+    
+}
+
+header h1 {
+    font-size: 175%;
 }
 
 #instructions-container{
-    width:75%;
-
     margin:0 auto;
+    width:70%;
+    border-radius: 5%;
     z-index: 2;
     position: fixed;
-    background-color:white;
+    background-color:black;
+    color:rgb(238, 59, 128);
     opacity: .9;
-    left:13%;
+    left:15%;
     height: 50%;
     overflow: scroll;
     padding-top: 10%;
     -webkit-box-shadow: 0 15px 10px #777;
     -moz-box-shadow: 0 15px 10px #777;
     box-shadow: 0 15px 10px #777;
-
-    
+    font-size:12pt;
+   
 }
 
 #instructions-container::-webkit-scrollbar { 

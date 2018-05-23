@@ -1,6 +1,9 @@
 
 $(document).ready(function () {
 
+    var soundChime = new Audio();
+    soundChime.src = "assets/music/chime.mp3";
+
     $("#instructions-container").on('click', function(){
         $("#instructions-container").hide();
     });
@@ -25,22 +28,33 @@ $(document).ready(function () {
         randomNumber = Math.floor(Math.random() * (120 - 19 + 1) + 19);
     }
 
-
-
+  
     $("#blue").click(function () {
         crystalValue.push(blueRandom);
+        $("#blue").fadeTo(500, 0.4)
+        $("#blue").fadeTo(500, 1)
+        soundChime.play();
     });
 
     $("#green").click(function () {
         crystalValue.push(greenRandom);
+        $("#green").fadeTo(500, 0.4)
+        $("#green").fadeTo(500, 1)
+        soundChime.play();
     });
 
     $("#pink").click(function () {
         crystalValue.push(pinkRandom);
+        $("#pink").fadeTo(500, 0.4)
+        $("#pink").fadeTo(500, 1)
+        soundChime.play();
     });
 
     $("#purple").click(function () {
         crystalValue.push(purpleRandom);
+        $("#purple").fadeTo(500, 0.4)
+        $("#purple").fadeTo(500, 1)
+        soundChime.play();
     });
 
 
