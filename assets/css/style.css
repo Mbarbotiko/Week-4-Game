@@ -8,7 +8,11 @@ body{
 
 .container{
     background-color:white;
+
     
+}
+#game-container{
+    margin-top:8%;
 }
 
 img{
@@ -22,10 +26,7 @@ p{
     font-size:12pt;
 }
 
-header img{
-    width:60%;
 
-}
 
 header h1 {
     font-size: 175%;
@@ -33,17 +34,22 @@ header h1 {
 
 #instructions-container{
     margin:0 auto;
+    width: 75%;
+    left:13%;
     border-radius: 10%;
-    width:40%;
     z-index: 2;
     position: fixed;
     background-color:white;
-    left:30%;
-    height: 50%;
+    height: 75%;
     overflow: scroll;
     padding-bottom:5%;
     padding-top: 5%;
+    
    
+}
+
+#instructions-container img{
+    width:50%;
 }
 
 #instructions-container::-webkit-scrollbar { 
